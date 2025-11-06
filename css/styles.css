@@ -341,6 +341,12 @@ font-weight: 500;
     padding: 100px 0;
 }
 
+.container-footer{
+    display: flex;
+    align-items: baseline;
+    gap: 120px;
+}
+
 .footer-page-logo{
     display: inline-block;
     font-family: "Raleway", sans-serif;
@@ -363,6 +369,53 @@ font-weight: 500;
     letter-spacing: 0.02em;
     color: #F4F4FD;
     max-width: 264px;
+}
+
+.container-socail-link{
+    display: flex;
+    width: 208px;
+    padding-left:0;
+    padding-right: 0;
+    flex-direction: column;
+    gap:16px;
+}
+
+.text-social-media{
+    color: #FFF;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.social-link{
+width: 40px;
+    height: 40px;
+}
+
+.list-social-media{
+    display: flex;
+    gap: 16px;
+}
+
+.item-social-media{
+    display: flex;
+    width: calc((100% - 48px) / 4);
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    position: relative;
+}
+
+.item-social-media:hover{
+    background-color: #31D0AA;
+}
+
+.svg-icon{
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    fill: #fff;
 }
 
 /* #endregion footer */

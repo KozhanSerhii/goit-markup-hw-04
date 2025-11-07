@@ -329,6 +329,7 @@ font-weight: 500;
 .list-social-teammate{
     display: flex;
     gap: 24px;
+    justify-content: center;
 
 }
 
@@ -348,12 +349,14 @@ font-weight: 500;
 
 }
 
-.social-link-teammate:hover{
-    background-color: #31D0AA;
+.social-link-teammate:hover,
+.social-link-teammate:focus
+{
+    background-color: #404bbf;
 }
 
 .svg-icon-socail{
-    fill: #FFF;
+    fill: #f4f4fd;
 
 }
 /* #endregion our-team */

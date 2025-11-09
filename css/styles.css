@@ -196,7 +196,7 @@ font-weight: 500;
     background-size: cover;
     max-width: 1440px;
     background-position: center;
-
+    margin: 0 auto;
 }
 
 .section-hero .container{
